@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .image-container {
+            flex: 1;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: contain;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .form-container {
+            flex: 1;
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        span {
+            background-color: gray;
+            padding: 5px;
+            border-radius: 10px;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out for any queries!</p>
+        <p>Here we will be learning about <span>"form"</span> tag in HTML</p>
+
+    </header>
+    <br>
+    <center>
+        <p>This is the landing page demonstrating how to implement <code>&lt;form&gt;</code> tag.</p>
+    </center>
+
+    <div class="container">
+
+        <div class="image-container">
+            <img src="https://www.dpsjhakri.com/images/Bgphotos/dps_logo.jpg" alt="Placeholder Image">
+        </div>
+        <div class="form-container">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Ayeza Arshad. All rights reserved.
+    </footer>
+</body>
+
+</html>

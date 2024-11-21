@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content {
+            text-align: center;
+            margin: 25px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            object-position: top;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        #content {
+            width: 60%;
+            align-self: center;
+        }
+
+        span {
+            background-color: gray;
+            padding: 5px;
+            border-radius: 10px;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Project</h1>
+        <p>Here we will be learning about <span>"anchor"</span> & <span>"image"</span> tag in HTML</p>
+    </header>
+    <div class="content">
+        <p>This is the landing page demonstating tag. Navigate through the links to see specific features.</p>
+        <h2>Mahatma Gandhi</h2>
+        <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRbStHqS02vgksl8sdcvtsCXBgCQ5hBI9Jf4O18NkpYvw_HlCvP_f44-_Xr9XmsEu4l"
+            alt="Mahtama_gandhi_image">
+        <p id="content">Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political
+            ethicist who
+            employed nonviolent resistance to lead the successful campaign for India's independence from British rule.
+            He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit,
+            meaning great-souled or venerable), first applied to him in South Africa in 1914, is now used throughout the
+            world
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">Know More</a>
+    </div>
+    <footer>
+        &copy; 2024 Ayeza Arshad. All rights reserved.
+    </footer>
+</body>
+
+</html>
