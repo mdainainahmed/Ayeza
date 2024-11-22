@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .heading-tag {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .tag-demo {
+            margin: 15px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        span {
+            background-color: gray;
+            padding: 5px;
+            border-radius: 10px;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Font Size Demonstration</h1>
+        <p>Learn how font sizes differ using HTML <span>"heading"</span> and <span>"paragraph"</span> tags</p>
+    </header>
+
+    <div class="container">
+        <h2 class="heading-tag">Heading Tags</h2>
+        <div class="section">
+            <div class="tag-demo">
+                <h1>This is an H1 tag (Largest heading)</h1>
+            </div>
+            <div class="tag-demo">
+                <h2>This is an H2 tag</h2>
+            </div>
+            <div class="tag-demo">
+                <h3>This is an H3 tag</h3>
+            </div>
+            <div class="tag-demo">
+                <h4>This is an H4 tag</h4>
+            </div>
+            <div class="tag-demo">
+                <h5>This is an H5 tag</h5>
+            </div>
+            <div class="tag-demo">
+                <h6>This is an H6 tag (Smallest heading)</h6>
+            </div>
+        </div>
+
+        <h2 class="heading-tag">Paragraph Tag</h2>
+        <div class="section">
+            <p class="tag-demo">This is a paragraph with the default font size.</p>
+            <p class="tag-demo" style="font-size: 20px;">This is a paragraph with font size set to 20px.</p>
+            <p class="tag-demo" style="font-size: 12px;">This is a paragraph with font size set to 12px.</p>
+            <p class="tag-demo" style="font-size: 30px;">This is a paragraph with font size set to 30px.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Ayeza Arshad. All rights reserved.
+    </footer>
+</body>
+
+</html>
